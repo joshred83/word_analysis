@@ -1,3 +1,11 @@
+'''
+A simple program which identifies words which decompose into new words when any letter is removed. 
+
+Example: seat: eat, sat, set, sea
+
+'''
+
+
 import nltk
 from collections import defaultdict
 from pprint import pprint
